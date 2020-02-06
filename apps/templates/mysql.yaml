@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: mysql
     server: {{ .Values.spec.destination.server }}
-  project: pawan
+  project: default
   source:
     path: mysql
     repoURL: {{ .Values.spec.source.repoURL }}
