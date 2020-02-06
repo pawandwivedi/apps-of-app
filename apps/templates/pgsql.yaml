@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: pgsql
     server: {{ .Values.spec.destination.server }}
-  project: pawan
+  project: default
   source:
     path: pgsql
     repoURL: {{ .Values.spec.source.repoURL }}
